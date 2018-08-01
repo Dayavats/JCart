@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Men"
+            android:icon="@drawable/user"
+            android:title="men" />
+        <item
+            android:id="@+id/Women"
+            android:icon="@drawable/women"
+            android:title="Women" />
+        <item
+            android:id="@+id/kids"
+            android:icon="@drawable/kid"
+            android:title="kids" />
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"/>
+        <item
+            android:id="@+id/Cart"
+            android:icon="@drawable/cart"
+            android:title="Cart"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

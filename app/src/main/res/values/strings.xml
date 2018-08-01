@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">JCart</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="category">
+        <item>Men</item>
+        <item>women</item>
+        <item>Kids</item>
+    </string-array>
+    <string-array name="brand_name">
+        <item>MUFTI</item>
+        <item>LEVIS</item>
+        <item>GUCCI</item>
+        <item>ZARA</item>
+        <item>SPYKAR</item>
+        <item>DIESEL</item>
+        <item>WRANGLER</item>
+        <item>LEE</item>
+        <item>PEPE</item>
+        <item>FLYING MACHINE</item>
+        <item>DENIZEN</item>
+        <item>NUMERO UNO</item>
+        <item>HUDSON</item>
+        <item>ARMANI</item>
+        <item>JACK AND JONES</item>
+        <item>VINTAGE</item>
+        <item>ARMANI</item>
+        <item>ROADSTER</item>
+        <item>CALVIN KLEIN</item>
+        <item>JOHN PLAYERS</item>
+        <item>LACOSTE</item>
+        <item>CANTABIL</item>
+        <item>MADAME</item>
+        <item>RED TAPE</item>
+        <item>TOMMY HIFIGHER</item>
+        <item>DUKE</item>
+        <item>ADIDAS</item>
+        <item>REEBOK</item>
+        <item>LOUIS PHILLIPE</item>
+        <item>KILLER</item>
+    </string-array>
+    <string-array name="size">
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+
+    </string-array>
+</resources>

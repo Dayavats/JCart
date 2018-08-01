@@ -1,0 +1,83 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#6601ff"
+    tools:context=".Special_offers">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/addimage"
+                android:onClick="view"
+                android:layout_marginTop="20dp"
+                android:id="@+id/img"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/category"
+                android:background="#ffffff"
+                android:id="@+id/category"
+                android:layout_marginTop="40dp"
+                android:textAlignment="center"></Spinner>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/brand_name"
+                android:id="@+id/brandname"
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"></Spinner>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textColorHint="#ffffff"
+                android:hint="ENTER PROODUCT NAME"
+                android:textStyle="bold"
+                android:id="@+id/product"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:entries="@array/size"
+                android:textAlignment="center"
+                android:id="@+id/size"></Spinner>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColorHint="#ffffff"
+                android:textColor="#ff0000"
+                android:textStyle="bold"
+                android:id="@+id/price"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:hint="ENTER PRODUCT PRICE"/>
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:onClick="save"
+                android:text="save"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

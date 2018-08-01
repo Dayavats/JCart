@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "62466895525",
+    "firebase_url": "https://jcart-de6cc.firebaseio.com",
+    "project_id": "jcart-de6cc",
+    "storage_bucket": "jcart-de6cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62466895525:android:8294ebc4d8a3f572",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.jcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62466895525-a2v9pkokhfre99ce4ovsms0rogre7gum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.jcart",
+            "certificate_hash": "940ca9e3a65f0863f6446ceca00c6c01f850d033"
+          }
+        },
+        {
+          "client_id": "62466895525-orkiqf7mer7138ofnd6717m2fqctcvdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsEmH85lZvOACaBfM6fA8mL9J5dowHQUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62466895525-orkiqf7mer7138ofnd6717m2fqctcvdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
